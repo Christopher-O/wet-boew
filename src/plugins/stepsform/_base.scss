@@ -9,7 +9,7 @@
 
 		> legend {
 			&:before {
-				content: counter(fieldset_counter) ".\00a0 ";
+				content: counter(fieldset_counter);
 				counter-increment: fieldset_counter;
 			}
 
